@@ -1,0 +1,91 @@
+@import url(https://fonts.googleapis.com/css?family=Baloo);
+html { 
+    background: url(https://miro.medium.com/max/3600/0*waJtwdhgwkDU_Vq5) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  body {
+	  font-family: 'Baloo' ;
+  }
+
+h1 {
+    text-align: center;
+    margin: 15px 0 0px 0;
+    color: rgb(172, 105, 105);	
+}
+
+
+ main {
+     margin-top: 5px;
+     text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin: 50px;
+ }
+
+ #buttons {
+    margin-bottom: 10px;
+    padding: 20px;
+}
+
+ #paper {
+    margin: 0 40px 0 40px;
+}
+
+.selection, button {
+	background: linear-gradient(to right, rgb(115, 175, 127), rgb(238, 204, 54));
+	color: rgb(31, 34, 34);
+	--width: 190px;
+	--height: calc(var(--width) / 3);
+	width: var(--width);
+	height: var(--height);
+	text-align: center;
+	line-height: var(--height);
+	font-size: calc(var(--height) / 2.5);
+	letter-spacing: 0.2em;
+	border: 1px solid rgb(219, 211, 216);
+	border-radius: 2.2rem;
+	transform: perspective(500px) rotateY(-15deg);
+	text-shadow: 11px 5px 4px rgba(146, 54, 54, 0.2);
+	box-shadow: 6px 0 0 5px rgba(0, 0, 0, 0.2);
+	transition: 0.7s;
+	position: relative;
+	overflow: hidden;
+    outline: none;
+	cursor: pointer;
+}
+
+.selection:hover, button:hover {
+	transform: perspective(500px) rotateY(15deg);
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.selection::before, button::before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(to right, transparent, rgb(212, 110, 110), transparent);
+	left: -100%;
+	transition: 0.5s;
+}
+
+.selection:hover::before, button:hover::before {
+	left: 100%;
+}
+ #new {
+	font-size: large;
+	 margin-left: 300px;
+ }
+#results {
+    margin-top: 90px;
+	font-size: 18px; 
+	text-transform: uppercase;
+	color:rgba(163, 61, 61, 0.959)
+	color = green
+}
