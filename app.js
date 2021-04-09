@@ -28,11 +28,7 @@ if ((playerSelection === "rock" && computerSelection === "scissors") ||
     (playerSelection === "scissors" && computerSelection === "paper") ||
     (playerSelection === "paper" && computerSelection === "rock")) {
       playerScore++    
-    }
-
-if (( playerSelection === "rock" && computerSelection === "paper") ||
-    (playerSelection ==="paper" && computerSelection === "scissors") ||
-    (playerSelection === "scissors" && computerSelection ==="rock")) {
+    } else {
     computerScore++
     }
 
