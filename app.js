@@ -39,7 +39,7 @@ if ((playerSelection === "rock" && computerSelection === "scissors") ||
 
   function finalResult() {
     if (playerScore === 5) {
-      result.textContent = ` 🥳 You win the game! ${playerScore}  - ${computerScore} 🥳`
+      result.textContent = ` 🥳 You are the winner! ${playerScore}  - ${computerScore} 🎉 `
       result.style.color = "green";
    
       playerScore = 0;
