@@ -6,6 +6,7 @@ html {
     -o-background-size: cover;
     background-size: cover;
     overflow: hidden;
+	zoom: 150%;
   }
 
   body {
@@ -78,7 +79,7 @@ h1 {
 }
  #new {
 	font-size: large;
-	 margin-left: 300px;
+	 margin-left: 375px;
  }
 #results {
     margin-top: 90px;
