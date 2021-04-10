@@ -6,3 +6,6 @@ Furthermore, I have  modified somehow the JavaScript code, adding some new learn
 
 🔗 URL:
 https://rock-papel-tijeras.netlify.app/
+
+![Rock paper Scissors](https://user-images.githubusercontent.com/43856395/114275927-069b9f00-9a2d-11eb-9ad4-8f305719581c.JPG)
+
