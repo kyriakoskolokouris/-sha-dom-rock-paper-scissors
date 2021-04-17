@@ -1,41 +1,43 @@
 @import url(https://fonts.googleapis.com/css?family=Baloo);
-html { 
-    background: url(https://miro.medium.com/max/3600/0*waJtwdhgwkDU_Vq5) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    overflow: hidden;
-	zoom: 150%;
-  }
 
-  body {
-	  font-family: 'Baloo' ;
-  }
+html {
+	background: url(https://miro.medium.com/max/3600/0*waJtwdhgwkDU_Vq5) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	overflow: hidden;
+	zoom: 150%;
+}
+
+body {
+	font-family: 'Baloo';
+}
 
 h1 {
-    text-align: center;
-    margin: 15px 0 0px 0;
-    color: rgb(172, 105, 105);	
+	text-align: center;
+	margin: 15px 0 0px 0;
+	color: rgb(172, 105, 105);
 }
 
 
- main {
-     margin-top: 5px;
-     text-align: center;
-     margin: 50px;
- }
-
- #buttons {
-    margin-bottom: 10px;
-    padding: 20px;
+main {
+	margin-top: 5px;
+	text-align: center;
+	margin: 50px;
 }
 
- #paper {
-    margin: 0 40px 0 40px;
+#buttons {
+	margin-bottom: 10px;
+	padding: 20px;
 }
 
-.selection, button {
+#paper {
+	margin: 0 40px 0 40px;
+}
+
+.selection,
+button {
 	background: linear-gradient(to right, rgb(115, 175, 127), rgb(238, 204, 54));
 	color: rgb(31, 34, 34);
 	--width: 190px;
@@ -54,17 +56,19 @@ h1 {
 	transition: 0.7s;
 	position: relative;
 	overflow: hidden;
-    outline: none;
+	outline: none;
 	cursor: pointer;
 }
 
-.selection:hover, button:hover {
+.selection:hover,
+button:hover {
 	transform: perspective(500px) rotateY(15deg);
 	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.2);
 	box-shadow: -2px 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
-.selection::before, button::before {
+.selection::before,
+button::before {
 	content: '';
 	position: absolute;
 	width: 100%;
@@ -74,18 +78,19 @@ h1 {
 	transition: 0.5s;
 }
 
-.selection:hover::before, button:hover::before {
+.selection:hover::before,
+button:hover::before {
 	left: 100%;
 }
- #new {
+
+#new {
 	font-size: large;
-	 margin-left: 430px;
- }
-#results {
-    margin-top: 90px;
-	font-size: 18px; 
-	text-transform: uppercase;
-	color:rgba(163, 61, 61, 0.959)
-	color = green
+	margin-left: 375px;
 }
 
+#results {
+	margin-top: 90px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgba(163, 61, 61, 0.959) color=green
+}
